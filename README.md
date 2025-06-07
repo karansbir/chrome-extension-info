@@ -1,4 +1,4 @@
-# ChromePy
+# Chrome Extension Info
 
 A Python package for fetching Chrome extension metadata from the Chrome Web Store.
 
@@ -14,7 +14,7 @@ A Python package for fetching Chrome extension metadata from the Chrome Web Stor
 ## Installation
 
 ```bash
-pip install chromepy
+pip install chrome-extension-info
 ```
 
 For development:
@@ -42,7 +42,7 @@ print(extension.to_dict())
 
 ## Available Metadata
 
-ChromePy can fetch the following information about extensions:
+Chrome Extension Info can fetch the following information about extensions:
 
 - **Basic Info**: Name, description, version, extension ID
 - **Developer**: Developer name, website, support URL, privacy policy

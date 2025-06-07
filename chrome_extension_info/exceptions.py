@@ -1,8 +1,8 @@
-"""Custom exceptions for ChromePy."""
+"""Custom exceptions for Chrome Extension Info."""
 
 
 class ChromeExtensionInfoError(Exception):
-    """Base exception for all ChromePy errors."""
+    """Base exception for all Chrome Extension Info errors."""
 
     pass
 
