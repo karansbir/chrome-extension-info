@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name="chrome-extension-info",
     version="0.2.0",
-    author="Karan Singh",
+    author="Karan Bir",
     author_email="hello@karanbir.com",
     description="A Python package for fetching Chrome extension metadata from the Chrome Web Store",
     long_description=long_description,
