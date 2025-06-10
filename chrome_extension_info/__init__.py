@@ -1,6 +1,6 @@
 """Chrome Extension Info - A Python package for fetching Chrome extension metadata from the Chrome Web Store."""
 
-__version__ = "0.2.1"
+__version__ = "0.2.2"
 
 from .client import ChromeWebStoreClient
 from .models import ExtensionMetadata, SearchResult

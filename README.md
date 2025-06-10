@@ -135,7 +135,7 @@ except ChromeExtensionInfoError as e:
 
 ## Exceptions
 
-- `ChromeExtensionInfoError`: Base exception for all ChromePy errors
+- `ChromeExtensionInfoError`: Base exception for all Chrome Extension Info errors
 - `ExtensionNotFoundError`: Extension not found in the Chrome Web Store
 - `NetworkError`: Network request failed
 - `RateLimitError`: Rate limiting exceeded
@@ -146,8 +146,8 @@ except ChromeExtensionInfoError as e:
 ### Setup
 
 ```bash
-git clone https://github.com/karansbir/chromepy.git
-cd chromepy
+git clone https://github.com/karansbir/chrome-extension-info.git
+cd chrome-extension-info
 pip install -e ".[dev]"
 ```
 
@@ -160,13 +160,13 @@ pytest
 ### Code Formatting
 
 ```bash
-black chromepy tests
+black chrome_extension_info tests
 ```
 
 ### Type Checking
 
 ```bash
-mypy chromepy
+mypy chrome_extension_info
 ```
 
 ## License
